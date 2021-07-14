@@ -1,4 +1,4 @@
-# Loading script for the Ancora NER dataset. 
+# Loading script for the NER dataset.
 import datasets
 
 logger = datasets.logging.get_logger(__name__)
@@ -17,10 +17,10 @@ _TEST_FILE = "gold-standard.tsv"
 
 
 class NERConfig(datasets.BuilderConfig):
-    """ Builder config for the Ancora Ca NER dataset """
+    """ Builder config for the NER dataset """
 
     def __init__(self, **kwargs):
-        """BuilderConfig for AncoraCaNer.
+        """BuilderConfig for NER.
         Args:
           **kwargs: keyword arguments forwarded to super.
         """
@@ -28,13 +28,13 @@ class NERConfig(datasets.BuilderConfig):
 
 
 class NER(datasets.GeneratorBasedBuilder):
-    """ AncoraCaNer dataset."""
+    """ NER dataset."""
 
     BUILDER_CONFIGS = [
         NERConfig(
-            name="AncoraCaNer",
+            name="NER",
             version=datasets.Version("2.0.0"),
-            description="AncoraCaNer dataset"
+            description="NER dataset"
         ),
     ]
 
@@ -108,7 +108,7 @@ class NER(datasets.GeneratorBasedBuilder):
                         tokens = []
                         ner_tags = []
                 else:
-                    # AncoraCaNer tokens are space separated
+                    # tokens are space separated
                     splits = line.split('\t')
                     tokens.append(splits[0])
                     ner_tags.append(splits[1].rstrip())

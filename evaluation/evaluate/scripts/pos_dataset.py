@@ -1,4 +1,4 @@
-# Loading script for the Ancora NER dataset. 
+# Loading script for the POS dataset.
 import datasets
 
 logger = datasets.logging.get_logger(__name__)
@@ -93,7 +93,7 @@ class NER(datasets.GeneratorBasedBuilder):
                         tokens = []
                         pos_tags = []
                 else:
-                    # AncoraCaNer tokens are space separated
+                    # tokens are space separated
                     splits = line.split('\t')
                     tokens.append(splits[1])
                     pos_tags.append(splits[3].rstrip())
