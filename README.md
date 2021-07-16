@@ -64,7 +64,14 @@ We are developing domain-specific language models:
 
 ## Cite 📣
 ```
-TBA
+@misc{gutiérrezfandiño2021spanish,
+      title={Spanish Language Models}, 
+      author={Asier Gutiérrez-Fandiño and Jordi Armengol-Estapé and Marc Pàmies and Joan Llop-Palao and Joaquín Silveira-Ocampo and Casimiro Pio Carrino and Aitor Gonzalez-Agirre and Carme Armentano-Oller and Carlos Rodriguez-Penagos and Marta Villegas},
+      year={2021},
+      eprint={2107.07253},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Contact 📧
