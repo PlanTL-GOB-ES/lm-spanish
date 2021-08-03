@@ -2,9 +2,9 @@
 
 ## Corpora 📃
 
-| Corpora | Number of documents | Size (GB) |
-|---------|---------------------|-----------|
-| BNE     |         201,080,084 |     570GB |
+| Corpora | Number of documents | Number of tokens | Size (GB) |
+|---------|---------------------|------------------|-----------|
+| BNE     |         201,080,084 |  135,733,450,668 |     570GB |
 
 ## Models 🤖
 - RoBERTa-base BNE: https://huggingface.co/BSC-TeMU/roberta-base-bne
