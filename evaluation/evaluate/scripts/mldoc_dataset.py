@@ -1,4 +1,4 @@
-# Loading script for the MLDoc dataset.
+# Loading script for the Ancora NER dataset. 
 import datasets
 
 logger = datasets.logging.get_logger(__name__)
