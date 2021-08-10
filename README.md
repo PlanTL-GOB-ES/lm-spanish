@@ -11,6 +11,12 @@
 - RoBERTa-large BNE: https://huggingface.co/BSC-TeMU/roberta-large-bne 
 - Other models: _(WIP)_
 
+## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
+
+- RoBERTa-base-BNE for Capitel-POS: https://huggingface.co/BSC-TeMU/roberta-base-bne-capitel-pos
+- RoBERTa-large-BNE for Capitel-POS: https://huggingface.co/BSC-TeMU/roberta-large-bne-capitel-pos
+
+
 ## Word embeddings 🔤
 Word embeddings trained with FastText for 300d:
 - CBOW Word embeddings: https://zenodo.org/record/5044988
