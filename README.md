@@ -22,6 +22,10 @@ Word embeddings trained with FastText for 300d:
 - CBOW Word embeddings: https://zenodo.org/record/5044988
 - Skip-gram Word embeddings: https://zenodo.org/record/5046525
 
+## Datasets 🗂️
+
+_WiP_
+
 ## Evaluation ✅
 | Dataset     | Metric   | RoBERTa-b | RoBERTa-l | BETO   | mBERT  | BERTIN | ELECTRA |
 |-------------|----------|-----------|-----------|--------|--------|--------|---------|
