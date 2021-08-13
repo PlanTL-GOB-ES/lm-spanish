@@ -15,7 +15,8 @@
 
 - RoBERTa-base-BNE for Capitel-POS: https://huggingface.co/BSC-TeMU/roberta-base-bne-capitel-pos
 - RoBERTa-large-BNE for Capitel-POS: https://huggingface.co/BSC-TeMU/roberta-large-bne-capitel-pos
-
+- RoBERTa-base-BNE for SQAC: https://huggingface.co/BSC-TeMU/roberta-base-bne-sqac
+- RoBERTa-large-BNE for SQAC: https://huggingface.co/BSC-TeMU/roberta-large-bne-sqac
 
 ## Word embeddings 🔤
 Word embeddings trained with FastText for 300d:
@@ -24,7 +25,7 @@ Word embeddings trained with FastText for 300d:
 
 ## Datasets 🗂️
 
-_WiP_
+- Spanish Question Answering Corpus (SQAC)🦆: https://huggingface.co/datasets/BSC-TeMU/SQAC
 
 ## Evaluation ✅
 | Dataset     | Metric   | RoBERTa-b | RoBERTa-l | BETO   | mBERT  | BERTIN | ELECTRA |
