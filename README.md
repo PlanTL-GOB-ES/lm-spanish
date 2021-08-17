@@ -1,5 +1,7 @@
 # Spanish Language Models 💃🏻
 
+A repository part of the MarIA project.
+
 ## Corpora 📃
 
 | Corpora | Number of documents | Number of tokens | Size (GB) |
