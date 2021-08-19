@@ -11,6 +11,7 @@ A repository part of the MarIA project.
 ## Models 🤖
 - RoBERTa-base BNE: https://huggingface.co/BSC-TeMU/roberta-base-bne
 - RoBERTa-large BNE: https://huggingface.co/BSC-TeMU/roberta-large-bne 
+- GPT2-large BNE: https://huggingface.co/BSC-TeMU/gpt2-large-bne
 - Other models: _(WIP)_
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
