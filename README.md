@@ -31,7 +31,7 @@ Word embeddings trained with FastText for 300d:
 - Spanish Question Answering Corpus (SQAC)🦆: https://huggingface.co/datasets/BSC-TeMU/SQAC
 
 ## Evaluation ✅
-| Dataset     | Metric   | RoBERTa-b | RoBERTa-l | BETO   | mBERT  | BERTIN | ELECTRA |
+| Dataset     | Metric   | RoBERTa-b | RoBERTa-l | BETO*   | mBERT  | BERTIN** | Electricidad*** |
 |-------------|----------|-----------|-----------|--------|--------|--------|---------|
 | UD-POS      | F1       | 0.9907    | 0.9898    | 0.9900 | 0.9886 | 0.9898 | 0.9818  |
 | Conll-NER   | F1       | 0.8851    | 0.8772    | 0.8759 | 0.8691 | 0.8835 | 0.7954  |
@@ -42,6 +42,13 @@ Word embeddings trained with FastText for 300d:
 | PAWS-X      | F1       | 0.9000    | 0.9060    | 0.9000 | 0.8955 | 0.8990 | 0.9025  |
 | XNLI        | Accuracy | 0.8016    | 0.7958    | 0.8130 | 0.7876 | 0.7890 | 0.7878  |
 | SQAC        | F1       | 0.7923    | 0.7993    | 0.7923 | 0.7562 | 0.7678 | 0.7383  |
+
+_* A model based on BERT architecture._
+
+_** A model based on RoBERTa architecture._
+
+_*** A model based on Electra architecture._
+
 
 ## Usage example ⚗️
 For the RoBERTa-base
