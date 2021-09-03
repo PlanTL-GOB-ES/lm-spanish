@@ -31,7 +31,7 @@ Word embeddings trained with FastText for 300d:
 - Spanish Question Answering Corpus (SQAC)🦆: https://huggingface.co/datasets/BSC-TeMU/SQAC
 
 ## Evaluation ✅
-| Dataset     | Metric   | RoBERTa-b | RoBERTa-l | BETO*   | mBERT  | BERTIN** | Electricidad*** |
+| Dataset     | Metric   | [RoBERTa-b](https://huggingface.co/BSC-TeMU/roberta-base-bne) | [RoBERTa-l](https://huggingface.co/BSC-TeMU/roberta-large-bne) | [BETO](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)*   | [mBERT](https://huggingface.co/bert-base-multilingual-cased)  | [BERTIN](https://huggingface.co/bertin-project/bertin-roberta-base-spanish/tree/v1-512)** | [Electricidad](https://huggingface.co/mrm8488/electricidad-base-generator)*** |
 |-------------|----------|-----------|-----------|--------|--------|--------|---------|
 | UD-POS      | F1       | 0.9907    | 0.9898    | 0.9900 | 0.9886 | 0.9898 | 0.9818  |
 | Conll-NER   | F1       | 0.8851    | 0.8772    | 0.8759 | 0.8691 | 0.8835 | 0.7954  |
