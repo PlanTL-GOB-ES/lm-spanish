@@ -11,14 +11,17 @@ A repository part of the MarIA project.
 ## Models 🤖
 - RoBERTa-base BNE: https://huggingface.co/BSC-TeMU/roberta-base-bne
 - RoBERTa-large BNE: https://huggingface.co/BSC-TeMU/roberta-large-bne 
-- GPT2-small BNE: _(WIP)_
-- GPT2-large BNE: https://huggingface.co/BSC-TeMU/gpt2-large-bne (unavailable)
+- GPT2-base BNE: https://huggingface.co/BSC-TeMU/gpt2-base-bne (available soon)
+- GPT2-large BNE: https://huggingface.co/BSC-TeMU/gpt2-large-bne (available soon)
 - Other models: _(WIP)_
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
 
 - RoBERTa-base-BNE for Capitel-POS: https://huggingface.co/BSC-TeMU/roberta-base-bne-capitel-pos
 - RoBERTa-large-BNE for Capitel-POS: https://huggingface.co/BSC-TeMU/roberta-large-bne-capitel-pos
+- RoBERTa-base-BNE for Capitel-NER: https://huggingface.co/BSC-TeMU/roberta-base-bne-capitel-ner
+- RoBERTa-base-BNE for Capitel-NER: https://huggingface.co/BSC-TeMU/roberta-base-bne-capitel-ner-plus (**very robust**)
+- RoBERTa-large-BNE for Capitel-NER: https://huggingface.co/BSC-TeMU/roberta-large-bne-capitel-ner
 - RoBERTa-base-BNE for SQAC: https://huggingface.co/BSC-TeMU/roberta-base-bne-sqac
 - RoBERTa-large-BNE for SQAC: https://huggingface.co/BSC-TeMU/roberta-large-bne-sqac
 
