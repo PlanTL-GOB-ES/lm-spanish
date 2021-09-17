@@ -86,7 +86,8 @@ pprint([r['token_str'] for r in res_hf])
 ## Other Spanish Language Models 👩‍👧‍👦
 We are developing domain-specific language models:
 
-- [Legal Language Model](https://github.com/PlanTL-SANIDAD/lm-legal-es)
+- ⚖️ [Legal Language Model](https://github.com/PlanTL-SANIDAD/lm-legal-es)
+- ⚕️ [Biomedical and Clinical Language Models](https://github.com/PlanTL-SANIDAD/lm-biomedical-clinical-es) 
 
 ## Cite 📣
 ```
