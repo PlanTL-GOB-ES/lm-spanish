@@ -9,21 +9,21 @@ A repository part of the MarIA project.
 | BNE     |         201,080,084 |  135,733,450,668 |     570GB |
 
 ## Models 🤖
-- RoBERTa-base BNE: https://huggingface.co/BSC-TeMU/roberta-base-bne
-- RoBERTa-large BNE: https://huggingface.co/BSC-TeMU/roberta-large-bne 
-- GPT2-base BNE: https://huggingface.co/BSC-TeMU/gpt2-base-bne (available soon)
-- GPT2-large BNE: https://huggingface.co/BSC-TeMU/gpt2-large-bne (available soon)
+- RoBERTa-base BNE: https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne
+- RoBERTa-large BNE: https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne 
+- GPT2-base BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-base-bne (available soon)
+- GPT2-large BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-large-bne (available soon)
 - Other models: _(WIP)_
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
 
-- RoBERTa-base-BNE for Capitel-POS: https://huggingface.co/BSC-TeMU/roberta-base-bne-capitel-pos
-- RoBERTa-large-BNE for Capitel-POS: https://huggingface.co/BSC-TeMU/roberta-large-bne-capitel-pos
-- RoBERTa-base-BNE for Capitel-NER: https://huggingface.co/BSC-TeMU/roberta-base-bne-capitel-ner
-- RoBERTa-base-BNE for Capitel-NER: https://huggingface.co/BSC-TeMU/roberta-base-bne-capitel-ner-plus (**very robust**)
-- RoBERTa-large-BNE for Capitel-NER: https://huggingface.co/BSC-TeMU/roberta-large-bne-capitel-ner
-- RoBERTa-base-BNE for SQAC: https://huggingface.co/BSC-TeMU/roberta-base-bne-sqac
-- RoBERTa-large-BNE for SQAC: https://huggingface.co/BSC-TeMU/roberta-large-bne-sqac
+- RoBERTa-base-BNE for Capitel-POS: https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne-capitel-pos
+- RoBERTa-large-BNE for Capitel-POS: https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne-capitel-pos
+- RoBERTa-base-BNE for Capitel-NER: https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne-capitel-ner
+- RoBERTa-base-BNE for Capitel-NER: https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne-capitel-ner-plus (**very robust**)
+- RoBERTa-large-BNE for Capitel-NER: https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne-capitel-ner
+- RoBERTa-base-BNE for SQAC: https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne-sqac
+- RoBERTa-large-BNE for SQAC: https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne-sqac
 
 ## Word embeddings 🔤
 Word embeddings trained with FastText for 300d:
@@ -32,10 +32,10 @@ Word embeddings trained with FastText for 300d:
 
 ## Datasets 🗂️
 
-- Spanish Question Answering Corpus (SQAC)🦆: https://huggingface.co/datasets/BSC-TeMU/SQAC
+- Spanish Question Answering Corpus (SQAC)🦆: https://huggingface.co/datasets/PlanTL-GOB-ES/SQAC
 
 ## Evaluation ✅
-| Dataset     | Metric   | [RoBERTa-b](https://huggingface.co/BSC-TeMU/roberta-base-bne) | [RoBERTa-l](https://huggingface.co/BSC-TeMU/roberta-large-bne) | [BETO](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)*   | [mBERT](https://huggingface.co/bert-base-multilingual-cased)  | [BERTIN](https://huggingface.co/bertin-project/bertin-roberta-base-spanish/tree/v1-512)** | [Electricidad](https://huggingface.co/mrm8488/electricidad-base-generator)*** |
+| Dataset     | Metric   | [RoBERTa-b](https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne) | [RoBERTa-l](https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne) | [BETO](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)*   | [mBERT](https://huggingface.co/bert-base-multilingual-cased)  | [BERTIN](https://huggingface.co/bertin-project/bertin-roberta-base-spanish/tree/v1-512)** | [Electricidad](https://huggingface.co/mrm8488/electricidad-base-generator)*** |
 |-------------|----------|-----------|-----------|--------|--------|--------|---------|
 | UD-POS      | F1       | 0.9907    | 0.9898    | 0.9900 | 0.9886 | 0.9898 | 0.9818  |
 | Conll-NER   | F1       | 0.8851    | 0.8772    | 0.8759 | 0.8691 | 0.8835 | 0.7954  |
@@ -60,8 +60,8 @@ For the RoBERTa-base
 from transformers import AutoModelForMaskedLM
 from transformers import AutoTokenizer, FillMaskPipeline
 from pprint import pprint
-tokenizer_hf = AutoTokenizer.from_pretrained('BSC-TeMU/roberta-base-bne')
-model = AutoModelForMaskedLM.from_pretrained('BSC-TeMU/roberta-base-bne')
+tokenizer_hf = AutoTokenizer.from_pretrained('PlanTL-GOB-ES/roberta-base-bne')
+model = AutoModelForMaskedLM.from_pretrained('PlanTL-GOB-ES/roberta-base-bne')
 model.eval()
 pipeline = FillMaskPipeline(model, tokenizer_hf)
 text = f"¡Hola <mask>!"
@@ -74,8 +74,8 @@ For the RoBERTa-large
 from transformers import AutoModelForMaskedLM
 from transformers import AutoTokenizer, FillMaskPipeline
 from pprint import pprint
-tokenizer_hf = AutoTokenizer.from_pretrained('BSC-TeMU/roberta-large-bne')
-model = AutoModelForMaskedLM.from_pretrained('BSC-TeMU/roberta-large-bne')
+tokenizer_hf = AutoTokenizer.from_pretrained('PlanTL-GOB-ES/roberta-large-bne')
+model = AutoModelForMaskedLM.from_pretrained('PlanTL-GOB-ES/roberta-large-bne')
 model.eval()
 pipeline = FillMaskPipeline(model, tokenizer_hf)
 text = f"¡Hola <mask>!"
@@ -86,8 +86,8 @@ pprint([r['token_str'] for r in res_hf])
 ## Other Spanish Language Models 👩‍👧‍👦
 We are developing domain-specific language models:
 
-- ⚖️ [Legal Language Model](https://github.com/PlanTL-SANIDAD/lm-legal-es)
-- ⚕️ [Biomedical and Clinical Language Models](https://github.com/PlanTL-SANIDAD/lm-biomedical-clinical-es) 
+- ⚖️ [Legal Language Model](https://github.com/PlanTL-GOB-ES/lm-legal-es)
+- ⚕️ [Biomedical and Clinical Language Models](https://github.com/PlanTL-GOB-ES/lm-biomedical-clinical-es) 
 
 ## Cite 📣
 ```
