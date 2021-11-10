@@ -11,8 +11,8 @@ A repository part of the MarIA project.
 ## Models 🤖
 - RoBERTa-base BNE: https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne
 - RoBERTa-large BNE: https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne 
-- GPT2-base BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-base-bne (available soon)
-- GPT2-large BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-large-bne (available soon)
+- GPT2-base BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-base-bne
+- GPT2-large BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-large-bne 
 - Other models: _(WIP)_
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
