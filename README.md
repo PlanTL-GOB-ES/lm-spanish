@@ -91,13 +91,18 @@ We are developing domain-specific language models:
 
 ## Cite 📣
 ```
-@misc{gutierrezfandino2021spanish,
-      title={Spanish Language Models}, 
-      author={Asier Gutiérrez-Fandiño and Jordi Armengol-Estapé and Marc Pàmies and Joan Llop-Palao and Joaquín Silveira-Ocampo and Casimiro Pio Carrino and Aitor Gonzalez-Agirre and Carme Armentano-Oller and Carlos Rodriguez-Penagos and Marta Villegas},
-      year={2021},
-      eprint={2107.07253},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{PLN6405,
+	author = {Asier Gutiérrez-Fandiño y Jordi Armengol-Estapé y Marc Pàmies y Joan Llop-Palao y Joaquin Silveira-Ocampo y Casimiro Pio Carrino y Carme Armentano-Oller y Carlos Rodriguez-Penagos y Aitor Gonzalez-Agirre y Marta Villegas},
+	title = {MarIA: Modelos del Lenguaje en Español},
+	journal = {Procesamiento del Lenguaje Natural},
+	volume = {68},
+	number = {0},
+	year = {2022},
+	keywords = {},
+	abstract = {This work presents MarIA, a family of Spanish language models and associated resources made available to the industry and the research community. Currently, MarIA includes RoBERTa-base, RoBERTa-large, GPT2 and GPT2-large Spanish language models, which can arguably be presented as the largest and most proficient language models in Spanish. The models were pretrained using a massive corpus of 570GB of clean and deduplicated texts with 135 billion words extracted from the Spanish Web Archive crawled by the National Library of Spain between 2009 and 2019. We assessed the performance of the models with nine existing evaluation datasets and with a novel extractive Question Answering dataset created ex novo. Overall, MarIA models outperform the existing Spanish models across a variety of NLU tasks and training settings.},
+	issn = {1989-7553},
+	url = {http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405},
+	pages = {39--60}
 }
 ```
 
