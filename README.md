@@ -97,7 +97,7 @@ We are developing domain-specific language models:
 	journal = {Procesamiento del Lenguaje Natural},
 	volume = {68},
 	number = {0},
-	year = {2022},,
+	year = {2022},
 	issn = {1989-7553},
 	url = {http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405},
 	pages = {39--60}
