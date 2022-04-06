@@ -92,7 +92,7 @@ We are developing domain-specific language models:
 ## Cite 📣
 ```
 @article{gutierrezfandino2022,
-	author = {Asier Gutiérrez-Fandiño y Jordi Armengol-Estapé y Marc Pàmies y Joan Llop-Palao y Joaquin Silveira-Ocampo y Casimiro Pio Carrino y Carme Armentano-Oller y Carlos Rodriguez-Penagos y Aitor Gonzalez-Agirre y Marta Villegas},
+	author = {Asier Gutiérrez-Fandiño and Jordi Armengol-Estapé and Marc Pàmies and Joan Llop-Palao and Joaquin Silveira-Ocampo and Casimiro Pio Carrino and Carme Armentano-Oller and Carlos Rodriguez-Penagos and Aitor Gonzalez-Agirre and Marta Villegas},
 	title = {MarIA: Spanish Language Models},
 	journal = {Procesamiento del Lenguaje Natural},
 	volume = {68},
