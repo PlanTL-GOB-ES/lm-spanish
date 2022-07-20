@@ -107,4 +107,4 @@ We are developing domain-specific language models:
 ## Contact 📧
 📋 We are interested in (1) extending our corpora to make larger models (2) train/evaluate the model in other tasks.
 
-For questions regarding this work, contact Asier Gutiérrez-Fandiño (<plantl-gob-es@bsc.es>)
+For questions regarding this work, contact Aitor Gonzalez-Agirre (<plantl-gob-es@bsc.es>)
