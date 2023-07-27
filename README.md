@@ -20,7 +20,7 @@ A repository part of the MarIA project.
 - GPT2-base BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-base-bne
 - GPT2-large BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-large-bne
 
-For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES.
+For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
@@ -33,9 +33,16 @@ For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES.
 - RoBERTa-base-BNE for SQAC: https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne-sqac
 - RoBERTa-large-BNE for SQAC: https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne-sqac
 
-For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES.
+For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 
 ## Word embeddings 🔤
+
+- **Spanish CBOW Word Embeddings in Floret**, trained with the corpus from the National Library of Spain (Biblioteca Nacional de España or BNE) using floret: https://zenodo.org/record/7314098
+- **Biomedical Spanish CBOW Word Embeddings in Floret**, trained with a biomedical Spanish corpus using floret: https://zenodo.org/record/7314041
+- **Spanish Skip-Gram Word Embeddings in FastText**, trained with the corpus from the BNE: https://zenodo.org/record/5046525
+- **Spanish Legal Domain Word & Sub-Word Embeddings**, trained with a Spanish Legal resources.
+
+
 Word embeddings trained with FastText for 300d:
 - CBOW Word embeddings: https://zenodo.org/record/5044988
 - Skip-gram Word embeddings: https://zenodo.org/record/5046525
