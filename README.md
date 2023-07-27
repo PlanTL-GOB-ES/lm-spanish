@@ -111,6 +111,14 @@ pprint([r['token_str'] for r in res_hf])
 ```
 
 
+## Demos
+
+- Anonimizador: Anonymizer for Spanish and Catalan user generated content in conversational systems: https://anonimizador.plantl.bsc.es/
+- spaCy: Demo of the different spacy models for Spanish: https://spacy.plantl.bsc.es/
+- QA: Question/Answer system in the Spanish Wikipedia based on models and datasets generated under PlanTL: https://qa.plantl.bsc.es/
+- Traductor: Automatic translators between Spanish and Catalan and between Spanish and Galician: https://traductor.plantl.bsc.es/
+- EvalES: Collection of resources for assessing natural language comprehension systems: https://benchmark.plantl.bsc.es/
+
 ## Cite 📣
 ```
 @article{gutierrezfandino2022,
@@ -125,6 +133,7 @@ pprint([r['token_str'] for r in res_hf])
 	pages = {39--60}
 }
 ```
+
 
 ## Contact 📧
 📋 We are interested in (1) extending our corpora to make larger models (2) train/evaluate the model in other tasks.
