@@ -53,7 +53,7 @@ Domain-specific language models:
 
 - Spanish Question Answering Corpus (SQAC)🦆: https://huggingface.co/datasets/PlanTL-GOB-ES/SQAC
 - Spanish Semantic Text Similarity (STS-es): https://huggingface.co/datasets/PlanTL-GOB-ES/sts-es
-- Professional translation into Spanish of Winograd NLI dataset (WNLI-es ): https://huggingface.co/datasets/PlanTL-GOB-ES/wnli-es
+- Professional translation into Spanish of Winograd NLI dataset (WNLI-es): https://huggingface.co/datasets/PlanTL-GOB-ES/wnli-es
 - Spanish dataset of the CoNLL-2002 Shared Task (CoNLL-NERC): https://huggingface.co/datasets/PlanTL-GOB-ES/CoNLL-NERC-es
 - Spanish corpus for thematic Text Classification tasks (WikiCAT_es): https://huggingface.co/datasets/PlanTL-GOB-ES/WikiCAT_esv2
 - English corpus for thematic Text Classification tasks (WikiCAT_en): https://huggingface.co/datasets/PlanTL-GOB-ES/WikiCAT_en
