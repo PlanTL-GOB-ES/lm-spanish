@@ -93,7 +93,6 @@ Domain-specific language models:
 
 ## spaCy models
 - **es_cantemist_ner_trf**, basic Spacy BioNER pipeline, with a RoBERTa-based model [bsc-bio-ehr-es] (https://huggingface.co/PlanTL-GOB-ES/bsc-bio-ehr-es) and a dataset, CANTEMIST, annotated with tumour morphology entities: https://huggingface.co/PlanTL-GOB-ES/es_cantemist_ner_trf
-- 
 - **es_pharmaconer_ner_trf**, basic Spacy BioNER pipeline, with a RoBERTa-based model [bsc-bio-ehr-es] (https://huggingface.co/PlanTL-GOB-ES/bsc-bio-ehr-es) and a dataset, Pharmaconer, a NER dataset annotated with substances, compounds and proteins entities: https://huggingface.co/PlanTL-GOB-ES/es_pharmaconer_ner_trf
 
 
