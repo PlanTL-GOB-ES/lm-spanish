@@ -64,7 +64,7 @@ For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 
 ## EvalES: The Spanish Evaluation Benchmark
 
-The EvalES benchmark consists of 8 tasks: Named Entity Recognition and Classification (CoNLL-NERC), Part-of-Speech Tagging (UD-POS), Text Classification (MLDoc), Paraphrase Identification (PAWS-X), Semantic Textual Similarity (STS), Question Answering (SQAC), Textual Entailment (XNLI) and Massive.
+The EvalES benchmark consists of 10 tasks: Named Entity Recognition and Classification (CoNLL-NERC and CAPITEL-NERC), Part-of-Speech Tagging (UD-POS and CAPITEL-POS ), Text Classification (MLDoc), Paraphrase Identification (PAWS-X), Semantic Textual Similarity (STS), Question Answering (SQAC), Textual Entailment (XNLI) and Massive.
 
 
 ### Results ✅
