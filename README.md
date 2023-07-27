@@ -81,18 +81,6 @@ The EvalES benchmark consists of 8 tasks: Named Entity Recognition and Classific
 | XNLI         | Accuracy |     0.8016 | **0.8263**🔥 |     0.8130 | 0.7876 | 0.7890 |  0.7878 |
 | Massive      | Accuracy |     0.8605 | 0.8722 |     **0.8732**🔥 | 0.8504 | 0.8500 |  0.8517 |
 
-
-
-
-### Results ✅
-
-| Model	| CoNLL-NERC (F1) | UD-POS (F1)	| MLDoc (F1) | PAWS-X (F1) | STS (Comb.) | SQAC (F1) | XNLI (Acc.)| Massive (Acc.) |
-| ------------|:-------------:| -----:|:------|:------|:-------|:------|:----|:----|
-| RoBERTa-l | 0.8823 | 0.9904 | 0.9702 | 0.9150	| 0.8411 | 0.8202 | 0.8263 | 0.8722 | 
-| RoBERTa-b | 0.8851 | 0.9907 | 0.9664 | 0.9020	| 0.8533 | 0.7923 | 0.8016 | 0.8605 | 
-| Longformer-base-4096-bne-es | 0.8757 | 0.9903	| 0.9610 | 0.8985 | 0.8338 | 0.7966 | 0.8210 | 0.8648 |  
-
-
 _* A model based on BERT architecture._
 
 _** A model based on RoBERTa architecture._
@@ -103,6 +91,7 @@ For more information, refer to https://benchmark.plantl.bsc.es/
 
 
 ## Usage example ⚗️
+
 For the RoBERTa-base
 ```python
 from transformers import AutoModelForMaskedLM
