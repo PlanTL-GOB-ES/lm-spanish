@@ -13,13 +13,23 @@ A repository part of the MarIA project.
 ## Models 🤖
 - ✨ <b>new</b> ✨ Ǎguila-7B: https://huggingface.co/projecte-aina/aguila-7b
 
-  **Ǎguila-7B** Ǎguila is a 7B parameters LLM that has been trained on a mixture of Spanish, Catalan and English data, adding up to a total of 26B tokens. It uses the [Falcon-7b](https://huggingface.co/tiiuae/falcon-7b) model as a starting point, a state-of-the-art English language model that was openly released just a few months ago by the Technology Innovation Institute. Read more [here](https://medium.com/@mpamies247/introducing-a%CC%8Cguila-a-new-open-source-llm-for-spanish-and-catalan-ee1ebc70bc79)
+  A 7B parameters LLM that has been trained on a mixture of Spanish, Catalan and English data, adding up to a total of 26B tokens. It uses the [Falcon-7b](https://huggingface.co/tiiuae/falcon-7b) model as a starting point, a state-of-the-art English language model that was openly released just a few months ago by the Technology Innovation Institute. Read more [here](https://medium.com/@mpamies247/introducing-a%CC%8Cguila-a-new-open-source-llm-for-spanish-and-catalan-ee1ebc70bc79)
 
 - RoBERTa-base BNE: https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne
+  
 - RoBERTa-large BNE: https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne
+  
+  Transformer-based masked language models for the Spanish language. They are based on the RoBERTa large model and has been pre-trained using the largest Spanish corpus known to date, with a total of 570GB of clean and deduplicated text processed for this work, compiled from the web crawlings performed by the National Library of Spain (Biblioteca Nacional de España) from 2009 to 2019.
+  
 - longformer-base-4096-bne-es: https://huggingface.co/PlanTL-GOB-ES/longformer-base-4096-bne-es
+  
+  The Longformer version of the roberta-base-ca-v2 masked language model for the Catalan language. The use of these models allows us to process larger contexts (up to 4096 tokens) as input without the need of additional aggregation strategies. The pretraining process of this model started from the roberta-base-ca-v2 checkpoint and was pretrained for MLM on both short and long documents in Catalan.
+  
 - GPT2-base BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-base-bne
+  
 - GPT2-large BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-large-bne
+
+  Transformer-based model for the Spanish language. It is based on the GPT-2 model and has been pre-trained using the largest Spanish corpus known to date, with a total of 570GB of clean and deduplicated text processed for this work, compiled from the web crawlings performed by the National Library of Spain (Biblioteca Nacional de España) from 2009 to 2019.
 
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
