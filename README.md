@@ -61,7 +61,13 @@ Domain-specific language models:
 For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 
 
-## Evaluation ✅
+## EvalES: The Spanish Evaluation Benchmark
+
+The EvalES benchmark consists of 8 tasks: Named Entity Recognition and Classification (CoNLL-NERC), Part-of-Speech Tagging (UD-POS), Text Classification (MLDoc), Paraphrase Identification (PAWS-X), Semantic Textual Similarity (STS), Question Answering (SQAC), Textual Entailment (XNLI) and Massive.
+
+
+### Results ✅
+
 | Dataset      | Metric   | [**RoBERTa-b**](https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne)   | [RoBERTa-l](https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne) | [BETO](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)*   | [mBERT](https://huggingface.co/bert-base-multilingual-cased)  | [BERTIN](https://huggingface.co/bertin-project/bertin-roberta-base-spanish/tree/v1-512)** | [Electricidad](https://huggingface.co/mrm8488/electricidad-base-generator)*** |
 |--------------|----------|------------|------------|------------|--------|--------|---------|
 | MLDoc        | F1       |     0.9664 |     0.9702 | **0.9714**🔥 | 0.9617 | 0.9668 |  0.9565 |
@@ -73,12 +79,27 @@ For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 | SQAC         | F1       |     0.7923 | **0.8202**🔥 |     0.7923 | 0.7562 | 0.7678 |  0.7383 |
 | STS          | Combined |     **0.8533**🔥 |     0.8411 |     0.8159 | 0.8164 | 0.7945 |  0.8063 |
 | XNLI         | Accuracy |     0.8016 | **0.8263**🔥 |     0.8130 | 0.7876 | 0.7890 |  0.7878 |
+| Massive      | Accuracy |     0.8605 | 0.8722 |     **0.8732**🔥 | 0.8504 | 0.8500 |  0.8517 |
+
+
+
+
+### Results ✅
+
+| Model	| CoNLL-NERC (F1) | UD-POS (F1)	| MLDoc (F1) | PAWS-X (F1) | STS (Comb.) | SQAC (F1) | XNLI (Acc.)| Massive (Acc.) |
+| ------------|:-------------:| -----:|:------|:------|:-------|:------|:----|:----|
+| RoBERTa-l | 0.8823 | 0.9904 | 0.9702 | 0.9150	| 0.8411 | 0.8202 | 0.8263 | 0.8722 | 
+| RoBERTa-b | 0.8851 | 0.9907 | 0.9664 | 0.9020	| 0.8533 | 0.7923 | 0.8016 | 0.8605 | 
+| Longformer-base-4096-bne-es | 0.8757 | 0.9903	| 0.9610 | 0.8985 | 0.8338 | 0.7966 | 0.8210 | 0.8648 |  
+
 
 _* A model based on BERT architecture._
 
 _** A model based on RoBERTa architecture._
 
 _*** A model based on Electra architecture._
+
+For more information, refer to https://benchmark.plantl.bsc.es/
 
 
 ## Usage example ⚗️
@@ -118,18 +139,6 @@ pprint([r['token_str'] for r in res_hf])
 - QA: Question/Answer system in the Spanish Wikipedia based on models and datasets generated under PlanTL: https://qa.plantl.bsc.es/
 - Traductor: Automatic translators between Spanish and Catalan and between Spanish and Galician: https://traductor.plantl.bsc.es/
 - EvalES: Collection of resources for assessing natural language comprehension systems: https://benchmark.plantl.bsc.es/
-
-
-## EvalES: The Spanish Evaluation Benchmark
-
-The EvalES benchmark consists of 7 tasks: Named Entity Recognition and Classification (CoNLL-NERC), Part-of-Speech Tagging (UD-POS), Text Classification (MLDoc), Paraphrase Identification (PAWS-X), Semantic Textual Similarity (STS), Question Answering (SQAC), and Textual Entailment (XNLI).
-
-
-| Model	| CoNLL-NERC (F1) | UD-POS (F1)	| MLDoc (F1) | PAWS-X (F1) | STS (Comb.) | SQAC (F1) | XNLI (Acc.)| Massive (Acc.) |
-| ------------|:-------------:| -----:|:------|:------|:-------|:------|:----|:----|
-| RoBERTa-l | 0.8823 | 0.9904 | 0.9702 | 0.9150	| 0.8411 | 0.8202 | 0.8263 | 0.8722 | 
-| RoBERTa-b | 0.8851 | 0.9907 | 0.9664 | 0.9020	| 0.8533 | 0.7923 | 0.8016 | 0.8605 | 
-| Longformer-base-4096-bne-es | 0.8757 | 0.9903	| 0.9610 | 0.8985 | 0.8338 | 0.7966 | 0.8210 | 0.8648 |  
 
 
 ## Cite 📣
