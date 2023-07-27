@@ -125,11 +125,11 @@ pprint([r['token_str'] for r in res_hf])
 The EvalES benchmark consists of 7 tasks: Named Entity Recognition and Classification (CoNLL-NERC), Part-of-Speech Tagging (UD-POS), Text Classification (MLDoc), Paraphrase Identification (PAWS-X), Semantic Textual Similarity (STS), Question Answering (SQAC), and Textual Entailment (XNLI).
 
 
-| Model	| CoNLL-NERC (F1)	| UD-POS (F1)	| MLDoc (F1)	| PAWS-X (F1)	| STS (Comb.)	| SQAC (F1)	| XNLI (Acc.)	| Massive (Acc.)
-| ------------|:-------------:| -----:|:------|:------|:-------|:------|:----|:----|:----|
-| RoBERTa-l	| 0.8823	| 0.9904	| 0.9702	| 0.9150	| 0.8411	| 0.8202	| 0.8263	| 0.8722 | 
-| RoBERTa-b	| 0.8851	| 0.9907	| 0.9664	| 0.9020	| 0.8533	| 0.7923	| 0.8016	| 0.8605 | 
-| Longformer-base-4096-bne-es	| 0.8757	| 0.9903	| 0.9610	| 0.8985	| 0.8338	| 0.7966	| 0.8210	| 0.8648|  
+| Model	| CoNLL-NERC (F1) | UD-POS (F1)	| MLDoc (F1) | PAWS-X (F1) | STS (Comb.) | SQAC (F1) | XNLI (Acc.)| Massive (Acc.) |
+| ------------|:-------------:| -----:|:------|:------|:-------|:------|:----|:----|
+| RoBERTa-l | 0.8823 | 0.9904 | 0.9702 | 0.9150	| 0.8411 | 0.8202 | 0.8263 | 0.8722 | 
+| RoBERTa-b | 0.8851 | 0.9907 | 0.9664 | 0.9020	| 0.8533 | 0.7923 | 0.8016 | 0.8605 | 
+| Longformer-base-4096-bne-es | 0.8757 | 0.9903	| 0.9610 | 0.8985 | 0.8338 | 0.7966 | 0.8210 | 0.8648 |  
 
 
 ## Cite 📣
