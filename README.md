@@ -33,6 +33,14 @@ A repository part of the MarIA project.
 
 For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 
+## Other Spanish Language Models 👩‍👧‍👦
+
+Domain-specific language models:
+
+- ⚖️ Legal Language Model: https://github.com/PlanTL-GOB-ES/lm-legal-es
+- ⚕️ Biomedical and Clinical Language Models: https://github.com/PlanTL-GOB-ES/lm-biomedical-clinical-es
+
+
 ## Word embeddings 🔤
 
 - **Spanish CBOW Word Embeddings in Floret**, trained with the corpus from the National Library of Spain (Biblioteca Nacional de España or BNE) using floret: https://zenodo.org/record/7314098
@@ -102,11 +110,6 @@ res_hf = pipeline(text)
 pprint([r['token_str'] for r in res_hf])
 ```
 
-## Other Spanish Language Models 👩‍👧‍👦
-We are developing domain-specific language models:
-
-- ⚖️ [Legal Language Model](https://github.com/PlanTL-GOB-ES/lm-legal-es)
-- ⚕️ [Biomedical and Clinical Language Models](https://github.com/PlanTL-GOB-ES/lm-biomedical-clinical-es) 
 
 ## Cite 📣
 ```
