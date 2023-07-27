@@ -29,8 +29,38 @@ A repository part of the MarIA project.
   
 - GPT2-large BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-large-bne
 
-  Transformer-based model for the Spanish language. It is based on the GPT-2 model and has been pre-trained using the largest Spanish corpus known to date, with a total of 570GB of clean and deduplicated text processed for this work, compiled from the web crawlings performed by the National Library of Spain (Biblioteca Nacional de España) from 2009 to 2019.
+  Transformer-based model for the Spanish language. They are based on the GPT-2 model and has been pre-trained using the largest Spanish corpus known to date, with a total of 570GB of clean and deduplicated text processed for this work, compiled from the web crawlings performed by the National Library of Spain (Biblioteca Nacional de España) from 2009 to 2019.
 
+
+## Usage example ⚗️
+
+For the RoBERTa-base
+```python
+from transformers import AutoModelForMaskedLM
+from transformers import AutoTokenizer, FillMaskPipeline
+from pprint import pprint
+tokenizer_hf = AutoTokenizer.from_pretrained('PlanTL-GOB-ES/roberta-base-bne')
+model = AutoModelForMaskedLM.from_pretrained('PlanTL-GOB-ES/roberta-base-bne')
+model.eval()
+pipeline = FillMaskPipeline(model, tokenizer_hf)
+text = f"¡Hola <mask>!"
+res_hf = pipeline(text)
+pprint([r['token_str'] for r in res_hf])
+```
+
+For the RoBERTa-large
+```python
+from transformers import AutoModelForMaskedLM
+from transformers import AutoTokenizer, FillMaskPipeline
+from pprint import pprint
+tokenizer_hf = AutoTokenizer.from_pretrained('PlanTL-GOB-ES/roberta-large-bne')
+model = AutoModelForMaskedLM.from_pretrained('PlanTL-GOB-ES/roberta-large-bne')
+model.eval()
+pipeline = FillMaskPipeline(model, tokenizer_hf)
+text = f"¡Hola <mask>!"
+res_hf = pipeline(text)
+pprint([r['token_str'] for r in res_hf])
+```
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
 
@@ -99,37 +129,6 @@ _** A model based on RoBERTa architecture._
 _*** A model based on Electra architecture._
 
 For more information, refer to https://benchmark.plantl.bsc.es/
-
-
-## Usage example ⚗️
-
-For the RoBERTa-base
-```python
-from transformers import AutoModelForMaskedLM
-from transformers import AutoTokenizer, FillMaskPipeline
-from pprint import pprint
-tokenizer_hf = AutoTokenizer.from_pretrained('PlanTL-GOB-ES/roberta-base-bne')
-model = AutoModelForMaskedLM.from_pretrained('PlanTL-GOB-ES/roberta-base-bne')
-model.eval()
-pipeline = FillMaskPipeline(model, tokenizer_hf)
-text = f"¡Hola <mask>!"
-res_hf = pipeline(text)
-pprint([r['token_str'] for r in res_hf])
-```
-
-For the RoBERTa-large
-```python
-from transformers import AutoModelForMaskedLM
-from transformers import AutoTokenizer, FillMaskPipeline
-from pprint import pprint
-tokenizer_hf = AutoTokenizer.from_pretrained('PlanTL-GOB-ES/roberta-large-bne')
-model = AutoModelForMaskedLM.from_pretrained('PlanTL-GOB-ES/roberta-large-bne')
-model.eval()
-pipeline = FillMaskPipeline(model, tokenizer_hf)
-text = f"¡Hola <mask>!"
-res_hf = pipeline(text)
-pprint([r['token_str'] for r in res_hf])
-```
 
 
 ## Demos
