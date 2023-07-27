@@ -15,7 +15,7 @@ A repository part of the MarIA project.
 - GPT2-base BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-base-bne
 - GPT2-large BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-large-bne 
 - Other models: _(WIP)_
-- 
+  
 **Ǎguila-7B** Ǎguila is a 7B parameters LLM that has been trained on a mixture of Spanish, Catalan and English data, adding up to a total of 26B tokens. It uses the [Falcon-7b](https://huggingface.co/tiiuae/falcon-7b) model as a starting point, a state-of-the-art English language model that was openly released just a few months ago by the Technology Innovation Institute. Read more [here](https://medium.com/@mpamies247/introducing-a%CC%8Cguila-a-new-open-source-llm-for-spanish-and-catalan-ee1ebc70bc79)
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
