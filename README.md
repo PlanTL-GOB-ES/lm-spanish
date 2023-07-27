@@ -20,8 +20,6 @@ A repository part of the MarIA project.
 - GPT2-base BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-base-bne
 - GPT2-large BNE: https://huggingface.co/PlanTL-GOB-ES/gpt2-large-bne
 
-For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
-
 
 ## Fine-tunned models 🧗🏼‍♀️🏇🏼🤽🏼‍♀️🏌🏼‍♂️🏄🏼‍♀️
 
@@ -40,16 +38,20 @@ For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 - **Spanish CBOW Word Embeddings in Floret**, trained with the corpus from the National Library of Spain (Biblioteca Nacional de España or BNE) using floret: https://zenodo.org/record/7314098
 - **Biomedical Spanish CBOW Word Embeddings in Floret**, trained with a biomedical Spanish corpus using floret: https://zenodo.org/record/7314041
 - **Spanish Skip-Gram Word Embeddings in FastText**, trained with the corpus from the BNE: https://zenodo.org/record/5046525
-- **Spanish Legal Domain Word & Sub-Word Embeddings**, trained with a Spanish Legal resources.
+- **Spanish Legal Domain Word & Sub-Word Embeddings**, trained with a Spanish Legal resources: https://zenodo.org/record/5036147
 
-
-Word embeddings trained with FastText for 300d:
-- CBOW Word embeddings: https://zenodo.org/record/5044988
-- Skip-gram Word embeddings: https://zenodo.org/record/5046525
 
 ## Datasets 🗂️
 
 - Spanish Question Answering Corpus (SQAC)🦆: https://huggingface.co/datasets/PlanTL-GOB-ES/SQAC
+- Spanish Semantic Text Similarity (STS-es): https://huggingface.co/datasets/PlanTL-GOB-ES/sts-es
+- Professional translation into Spanish of Winograd NLI dataset (WNLI-es ): https://huggingface.co/datasets/PlanTL-GOB-ES/wnli-es
+- Spanish dataset of the CoNLL-2002 Shared Task (CoNLL-NERC): https://huggingface.co/datasets/PlanTL-GOB-ES/CoNLL-NERC-es
+- Spanish corpus for thematic Text Classification tasks (WikiCAT_es): https://huggingface.co/datasets/PlanTL-GOB-ES/WikiCAT_esv2
+- English corpus for thematic Text Classification tasks (WikiCAT_en): https://huggingface.co/datasets/PlanTL-GOB-ES/WikiCAT_en
+
+For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
+
 
 ## Evaluation ✅
 | Dataset      | Metric   | [**RoBERTa-b**](https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne)   | [RoBERTa-l](https://huggingface.co/PlanTL-GOB-ES/roberta-large-bne) | [BETO](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)*   | [mBERT](https://huggingface.co/bert-base-multilingual-cased)  | [BERTIN](https://huggingface.co/bertin-project/bertin-roberta-base-spanish/tree/v1-512)** | [Electricidad](https://huggingface.co/mrm8488/electricidad-base-generator)*** |
