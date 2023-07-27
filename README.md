@@ -31,6 +31,7 @@ A repository part of the MarIA project.
 
   Transformer-based model for the Spanish language. They are based on the GPT-2 model and has been pre-trained using the largest Spanish corpus known to date, with a total of 570GB of clean and deduplicated text processed for this work, compiled from the web crawlings performed by the National Library of Spain (Biblioteca Nacional de España) from 2009 to 2019.
 
+See results achieved on several tasks below. _Vegeu els resultats obtinguts en diverses tasques més avall_.
 
 ## Usage example ⚗️
 
@@ -74,6 +75,7 @@ pprint([r['token_str'] for r in res_hf])
 
 For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 
+
 ## Other Spanish Language Models 👩‍👧‍👦
 
 Domain-specific language models:
@@ -89,6 +91,11 @@ Domain-specific language models:
 - **Spanish Skip-Gram Word Embeddings in FastText**, trained with the corpus from the BNE: https://zenodo.org/record/5046525
 - **Spanish Legal Domain Word & Sub-Word Embeddings**, trained with a Spanish Legal resources: https://zenodo.org/record/5036147
 
+## spaCy models
+- **es_cantemist_ner_trf**, basic Spacy BioNER pipeline, with a RoBERTa-based model [bsc-bio-ehr-es] (https://huggingface.co/PlanTL-GOB-ES/bsc-bio-ehr-es) and a dataset, CANTEMIST, annotated with tumour morphology entities: https://huggingface.co/PlanTL-GOB-ES/es_cantemist_ner_trf
+- 
+- **es_pharmaconer_ner_trf**, basic Spacy BioNER pipeline, with a RoBERTa-based model [bsc-bio-ehr-es] (https://huggingface.co/PlanTL-GOB-ES/bsc-bio-ehr-es) and a dataset, Pharmaconer, a NER dataset annotated with substances, compounds and proteins entities: https://huggingface.co/PlanTL-GOB-ES/es_pharmaconer_ner_trf
+
 
 ## Datasets 🗂️
 
@@ -102,7 +109,7 @@ Domain-specific language models:
 For a complete list, refer to https://huggingface.co/PlanTL-GOB-ES
 
 
-## EvalES: The Spanish Evaluation Benchmark
+## EvalES: The Spanish Evaluation Benchmark 🏆
 
 The EvalES benchmark consists of 10 tasks: Named Entity Recognition and Classification (CoNLL-NERC and CAPITEL-NERC), Part-of-Speech Tagging (UD-POS and CAPITEL-POS ), Text Classification (MLDoc), Paraphrase Identification (PAWS-X), Semantic Textual Similarity (STS), Question Answering (SQAC), Textual Entailment (XNLI) and Massive.
 
